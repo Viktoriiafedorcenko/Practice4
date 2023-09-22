@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     // 3 zadacha
     fun calculateFullName(firstName: String, lastName: String) : String// функция которая будет возвращать в виде строки
     {
-        return firstName+lastName // сумма значений
+        return firstName+lastName //возвражение  суммы значений
         val fullName=calculateFullName("Victoria","Fedorchenko") //возращает полное имя в виде строки
     } // сохраняет имя в константе
         //4 zadacha
@@ -55,7 +55,7 @@ fun main(args: Array<String>) {
                 { return 1}
             return fibonacci(n - 1) + fibonacci(n - 2) //возфвращение суммы через вызов Фибонначчи
             }
-    println(fibonacci(1))//1
+    println(fibonacci(1))//1 каждое следующее число равно двум предыдущим 
     println(fibonacci(2))//1
     println(fibonacci(3))//2
 println(fibonacci(4))//3
